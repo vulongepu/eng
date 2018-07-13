@@ -1,0 +1,15 @@
+{
+    "name": "Film",
+    "alias": "film",
+    "description": "",
+    "keywords": [],
+    "active": 0,
+    "order": 1,
+    "providers": [
+        "Modules\\Film\\Providers\\FilmServiceProvider",
+        "Modules\\Film\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}
