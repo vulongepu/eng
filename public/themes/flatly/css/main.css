@@ -1,0 +1,63 @@
+/* Blog */
+article{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+}
+figure.ta_2144 {
+    margin-top: 23px;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+figure img{
+    width: 100%;
+}
+.glyphicon-folder-open,
+.glyphicon-user,
+.glyphicon-calendar,
+.glyphicon-eye-open,
+.glyphicon-comment{
+    padding: 5px;
+}
+.btnMid_subBox .ipSubBox {
+    display: inline-block;
+    color: #545454;
+    padding: 3px;
+    border-radius: 3px;
+    background: #fff;
+    border: #ddd solid 1px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 11px;
+}
+#mainColLeft_reFix .btnMid_subBox {
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 800px){
+    .ta_2144{
+        display: none;
+    }
+}
+/* phan trang */
+.pagination li > a {
+    color: #3474ab;
+    border-radius: 50%;
+    padding: 4px 8px;
+    border: none;
+    background: #f2f2f2;
+    border-radius: 3px;
+    margin: 2px;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    color: #fff;
+    border-radius: 50%;
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
